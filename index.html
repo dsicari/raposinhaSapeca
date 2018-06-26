@@ -7,67 +7,49 @@
     <link rel="stylesheet" href="estilo.css"> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>   
     <title>Raposinha Sapeca</title>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 </head>
-<body>
+<body id="transcroller-body" class="aos-all">
 
-    <div class="rsheader">
-        <img src="./psd/header/raposa3.png" id="raposinha-h">
-        <img src="./psd/header/fala.png" id="fala-h">
+    <div class="rsheader" data-aos="fade-up">
+        <img src="./psd/header/raposa3.png" id="raposinha-h" data-aos="fade-right">
+        <img src="./psd/header/fala.png" id="fala-h" data-aos="fade-left">
     </div>
 
-    <div class="rsf1">
-        <img src="./psd/f1/matinho.png" id="matinho-f1">
-        <img src="./psd/f1/raposa.png" id="raposinha-f1">
-        <img src="./psd/f1/fala.png" id="fala-f1">
+    <div class="rsf1" data-aos="fade-down">
+        <img src="./psd/f1/matinho.png" id="matinho-f1" data-aos="fade-up">
+        <img src="./psd/f1/raposa.png" id="raposinha-f1" data-aos="fade-down">
+        <img src="./psd/f1/fala.png" id="fala-f1" data-aos="fade-left">
     </div>
 
-    <div class="rsf2">
-        <img src="./psd/f2/matinho.png" id="matinho-f2">
-        <img src="./psd/f2/raposaCahapada.png" id="raposinha-f2">
-        <img src="./psd/f2/fala1.png" id="fala1-f2">
-        <img src="./psd/f2/fala2.png" id="fala2-f2">
+    <div class="rsf2" data-aos="fade-up">
+        <img src="./psd/f2/matinho.png" id="matinho-f2" data-aos="fade-left">
+        <img src="./psd/f2/raposaCahapada.png" id="raposinha-f2" data-aos="fade-right">
+        <img src="./psd/f2/fala1.png" id="fala1-f2" data-aos="fade-down">
+        <img src="./psd/f2/fala2.png" id="fala2-f2" data-aos="fade-up">
     </div>
 
-    <div class="rsf3">
-        <img src="./psd/f3/matinho.png" id="matinho-f3">
-        <img src="./psd/f3/raposinha.png" id="raposinha-f3">
-        <img src="./psd/f3/falaraposa.png" id="falaraposa-f3">
-        <img src="./psd/f3/fala.png" id="fala-f3">
-        <img src="./psd/f3/gotica.png" id="falagotica-f3">
-        <img src="./psd/f3/suave.png" id="falasuave-f3">
-        <img src="./psd/f3/goticasuave.png" id="goticasuave-f3">
+    <div class="rsf3" data-aos="fade-down">
+        <img src="./psd/f3/matinho.png" id="matinho-f3" data-aos="fade-up">
+        <img src="./psd/f3/raposinha.png" id="raposinha-f3" data-aos="fade-left">
+        <img src="./psd/f3/falaraposa.png" id="falaraposa-f3" data-aos="fade-right">
+        <img src="./psd/f3/fala.png" id="fala-f3" data-aos="fade-left">
+        <img src="./psd/f3/gotica.png" id="falagotica-f3" data-aos="fade-right">
+        <img src="./psd/f3/suave.png" id="falasuave-f3" data-aos="fade-up">
+        <img src="./psd/f3/goticasuave.png" id="goticasuave-f3" data-aos="fade-right">
     </div>
 
-    <div class="rsfim">
-        <img src="./psd/fim/raposa3.png" id="raposinha-fim">
-        <img src="./psd/fim/fala1.png" id="fala-fim">
+    <div class="rsfim" data-aos="fade-up">
+        <img src="./psd/fim/raposa3.png" id="raposinha-fim" data-aos="fade-left">
+        <img src="./psd/fim/fala1.png" id="fala-fim" data-aos="fade-right">
     </div>
+    
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
 
 </body>
-
-    <script> 
-        //$(document).ready(function(){
-
-            /*setTimeout(function(){
-                document.getElementById("raposinha-h").style.visibility = "visible";
-            }, 
-            setTimeout(function(){
-                document.getElementById("fala-h").style.visibility = "visible";
-            },
-            2000),
-            1000);*/
-
-            /*setTimeout(function(){
-                document.getElementById("raposinha-f1").style.visibility = "visible";
-            }, 
-            setTimeout(function(){
-                document.getElementById("fala-f1").style.visibility = "visible";
-            },
-            2000),
-            1000);*/
-            
-        //});
-
-    </script> 
-
 </html>
