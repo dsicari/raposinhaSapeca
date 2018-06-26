@@ -1,0 +1,155 @@
+body{
+  background-color: lightsalmon;
+}
+
+div{
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 500px;
+  border: 20px white solid;
+  box-shadow: 10px 10px 25px rgb(40, 40, 40);
+}
+
+/*img{
+  visibility: hidden;
+}*/
+/* ------------ HEADER ------------ */
+
+.rsheader{
+  background: url("./psd/header/fundo.png");
+}
+
+#raposinha-h{
+  position: relative;
+  float: right;
+  margin-top: 216px;
+}
+
+#fala-h{
+  position: relative;
+  float: right;
+  margin-top: 216px;
+}
+
+/* ------------ F1 ------------ */
+
+.rsf1{
+  background: url("./psd/f1/fundo.png");
+}
+
+#raposinha-f1{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 180px;
+}
+
+#fala-f1{
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 280px;
+}
+
+#matinho-f1{
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 500px;
+}
+
+/* ------------ F2 ------------ */
+
+.rsf2{
+  background: url("./psd/f2/fundo.png");
+}
+
+#raposinha-f2{
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+#fala1-f2{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 280px;
+}
+
+#fala2-f2{
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 350px;
+}
+
+#matinho-f2{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 430px;
+}
+
+/* ------------ F3 ------------ */
+
+.rsf3{
+  background: url("./psd/f3/fundo.png");
+}
+
+#raposinha-f3{
+  position: absolute;
+  margin-top: 215px;
+  margin-left: 722px;
+}
+
+#falaraposa-f3{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 550px;
+}
+
+#fala-f3{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 210px;
+}
+
+#falagotica-f3{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 230px;
+}
+
+#falasuave-f3{
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 280px;
+}
+
+#goticasuave-f3{
+  position: absolute;
+  margin-top: 133px;
+  margin-left: 10px;
+}
+
+#matinho-f3{
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 430px;
+}
+
+/* ------------ FIM ------------ */
+
+.rsfim{
+  background: url("./psd/fim/fundo.png");
+}
+
+#raposinha-fim{
+  position: absolute;
+  margin-top: 105px;
+  margin-left: 20px;
+}
+
+#fala-fim{
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 450px;
+}
+
